@@ -1,1 +1,11 @@
-<p>encr / decr</p>
+<p class="fz-10">{{name}}</p>
+<div class="m-20-10 fz-10">
+  <input type="text" [(ngModel)]="encrWord" />
+  <button class="fz-10" (click)="setValue()">Encrypt</button>
+  <p>encrValue : <span class="c-yellow">{{encrValue}}</span></p>
+</div>
+<div class="m-20-10 fz-10">
+  <input type="text" [(ngModel)]="decrWord" />
+  <button class="fz-10" (click)="getValue()">Decrypt</button>
+  <p>decrValue : <span class="c-yellow">{{decrValue}}</span></p>
+</div>
