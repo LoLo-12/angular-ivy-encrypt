@@ -1,6 +1,15 @@
 p {
   font-family: Lato;
 }
+
+input {
+  margin-right: 10px;
+}
+
+.t-center {
+  text-align: center;
+}
+
 .m-20-10 {
   margin: 20px 10px;
 }

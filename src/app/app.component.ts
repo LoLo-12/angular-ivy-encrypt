@@ -12,13 +12,14 @@ export class AppComponent {
   encrValue = "";
   decrWord = "";
   decrValue = "";
+  keys = "r*(^er453";
 
   setValue() {
-    this.encrValue = this.encr("r*(^er453", this.encrWord);
+    this.encrValue = this.encr(this.keys, this.encrWord);
   }
 
   getValue() {
-    this.decrValue = this.decr("r*(^er453", this.decrWord);
+    this.decrValue = this.decr(this.keys, this.decrWord);
   }
 
   private encr(keys, text) {
